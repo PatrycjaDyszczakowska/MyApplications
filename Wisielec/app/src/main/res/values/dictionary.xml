@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>SSAKI</item>
+        <item>PTAKI</item>
+        <item>RYBY</item>
+        <item>GADY</item>
+        <item>PŁAZY</item>
+        <item>OWADY</item>
+        <item>GEPARD</item>
+        <item>TYGRYS</item>
+        <item>HUMBAK</item>
+        <item>KOZIOROŻEC</item>
+        <item>GRUBODZIÓB</item>
+        <item>KUROPATWA</item>
+        <item>BAŻANT</item>
+        <item>BĄCZEK</item>
+        <item>BIZON</item>
+        <item>CIERNIÓWKA</item>
+        <item>CZYŻYK</item>
+        <item>CZAJKA</item>
+        <item>MORŚWIN</item>
+        <item>MYSZOŁÓW</item>
+        <item>KALAFIOR</item>
+        <item>MARCHEW</item>
+        <item>RZODKIEW</item>
+        <item>POMIDOR</item>
+        <item>PAPRYKA</item>
+        <item>RABARBAR</item>
+        <item>SZPARAG</item>
+        <item>SZCZAW</item>
+        <item>CHRZAN</item>
+        <item>KUKURYDZA</item>
+        <item>SOCZEWICA</item>
+        <item>KALAREPA</item>
+        <item>BROKUŁ</item>
+        <item>JARMUŻ</item>
+        <item>BRUKIEW</item>
+        <item>RZEPA</item>
+        <item>CEBULA</item>
+        <item>CZOSNEK</item>
+        <item>SZCZYPIOREK</item>
+        <item>GROCH</item>
+        <item>FASOLA</item>
+        <item>ZIEMNIAK</item>
+        <item>OBERŻYNA</item>
+        <item>DYNIA</item>
+        <item>ARBUZ</item>
+        <item>MELON</item>
+    </string-array>
+</resources>
