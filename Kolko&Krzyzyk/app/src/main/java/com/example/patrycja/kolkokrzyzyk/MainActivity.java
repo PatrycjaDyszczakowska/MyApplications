@@ -11,7 +11,15 @@ import android.widget.Toast;
 
 import java.util.Random;
 
+/**
+ * Aplikacja gry Kółko i krzyżyk
+ * @author Patrycja Dyszczakowska
+ * @version 1.0.3
+ */
 public class MainActivity extends Activity {
+    /**
+     * Zmienne używane globalnie w całej klasie
+     */
     private EditText text, text1;
     private TextView msg, ranking;
     private TableLayout board;
@@ -22,6 +30,11 @@ public class MainActivity extends Activity {
     private Button b2,b3,b4,b5,b6,b7,b8,b9, b10;
     Random generator = new Random();
 
+    /**
+     * Metoda onCreate ustawia Layout activity_main
+     * oraz pod zmienne tex, text1, msg, ranking itd.
+     * odpowiednie elementy
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +55,172 @@ public class MainActivity extends Activity {
         b10 = (Button)findViewById(R.id.button10);
     }
 
+    /**
+     * Metoda onClick odpowiada co się bedzie
+     * działo po wciśnięciu danego przycisku na ekranie
+     */
+    public void onClick(View view) {
+        switch (view.getId()) {
+            /**
+             * Przycisk ustawiający wpisanych 2 graczy do gry
+             */
+            case R.id.button:
+                if (text1.getText().length() == 0 && text.getText().length()==0) {
+                    Toast.makeText(this, "Please enter a valid number",
+                            Toast.LENGTH_LONG).show();
+                    return;
+                }
+                player[0] = ""+text.getText();
+                player[1] = ""+text1.getText();
+                winnings[0]=0;
+                winnings[1]=0;
+                round = generator.nextInt(2);
+                msg.setText("Teraz kolej gracza: " + player[round]);
+                ranking.setText(player[0]+" "+winnings[0]+":"+winnings[1]+" "+player[1]);
+                board.setVisibility(View.VISIBLE);
+                clean();
+                break;
+
+            /**
+             * Poniższe przyciski odpowiadają co się bedzie
+             * działo po wciśnięciu danego pustego przycisku
+             * czyli w zalezności czyja runda wpisze X lub O
+             */
+            //Wiersz 1
+            case R.id.button2:
+                if(round==0){
+                    b2.setText("X");
+                    round++;
+                }
+                else{
+                    b2.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b2.setTextSize(b3.getHeight() / 4);
+                b2.setEnabled(false);
+                break;
+            case R.id.button3:
+                if(round==0){
+                    b3.setText("X");
+                    round++;
+                }
+                else{
+                    b3.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b3.setTextSize(b3.getHeight()/4);
+                b3.setEnabled(false);
+                break;
+            case R.id.button4:
+                if(round==0){
+                    b4.setText("X");
+                    round++;
+                }
+                else{
+                    b4.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b4.setTextSize(b3.getHeight() / 4);
+                b4.setEnabled(false);
+                break;
+            //Wiersz 2
+            case R.id.button5:
+                if(round==0){
+                    b5.setText("X");
+                    round++;
+                }
+                else{
+                    b5.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b5.setTextSize(b3.getHeight() / 4);
+                b5.setEnabled(false);
+                break;
+            case R.id.button6:
+                if(round==0){
+                    b6.setText("X");
+                    round++;
+                }
+                else{
+                    b6.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b6.setTextSize(b3.getHeight() / 4);
+                b6.setEnabled(false);
+                break;
+            case R.id.button7:
+                if(round==0){
+                    b7.setText("X");
+                    round++;
+                }
+                else{
+                    b7.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b7.setTextSize(b3.getHeight() / 4);
+                b7.setEnabled(false);
+                break;
+            //Wiersz 3
+            case R.id.button8:
+                if(round==0){
+                    b8.setText("X");
+                    round++;
+                }
+                else{
+                    b8.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b8.setTextSize(b3.getHeight() / 4);
+                b8.setEnabled(false);
+                break;
+            case R.id.button9:
+                if(round==0){
+                    b9.setText("X");
+                    round++;
+                }
+                else{
+                    b9.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b9.setTextSize(b3.getHeight() / 4);
+                b9.setEnabled(false);
+                break;
+            case R.id.button10:
+                if(round==0){
+                    b10.setText("X");
+                    round++;
+                }
+                else{
+                    b10.setText("O");
+                    round--;
+                }
+                msg.setText("Teraz kolej gracza: "+player[round]);
+                b10.setTextSize(b3.getHeight()/4);
+                b10.setEnabled(false);
+                break;
+        }
+        /**
+         * wywołanie metody Resoults
+         */
+        Resoults();
+    }
+
+    /**
+     * Metoda sprawdzająca czy dany gracz wygrał
+     */
     private void Resoults(){
+        /**
+         * Sprawdzane są czy 3 przyciski poziomo, pionowo
+         * lub w skosie maja pasujące do siebie teksty
+         */
         if(b2.getText().equals(b3.getText()) && b2.getText().equals(b4.getText())){
             if(b2.getText().equals("X")){
                 winner = "Wygral gracz " + player[0];
@@ -107,10 +285,18 @@ public class MainActivity extends Activity {
                 winner = "Wygral gracz " + player[1];
             }
         }
+        /**
+         * Sprawdzanie czy wszystkie przyciski zostały
+         * już kliknięte jak tak to resetuje tablice
+         */
         if((b2.getText() != "") && (b3.getText() != "") && (b4.getText() != "") && (b5.getText() != "") && (b6.getText() != "") && (b7.getText() != "") && (b8.getText() != "") && (b9.getText() != "") && (b10.getText() != "")){
             Toast.makeText(getApplicationContext(), "NIkt nie wygral",Toast.LENGTH_SHORT).show();
             clean();
         }
+        /**
+         * Sprawdzane jest czy jakiś gracz wygrał jak tak
+         * to zwieksza jego ilość wygranych oraz czyści tablice
+         */
         if(winner.equals("Wygral gracz " + player[0]) || winner.equals("Wygral gracz " + player[1])){
             Toast.makeText(getApplicationContext(), winner,Toast.LENGTH_SHORT).show();
             if(winner.equals("Wygral gracz " + player[0])){
@@ -124,6 +310,10 @@ public class MainActivity extends Activity {
             clean();
         }
     }
+
+    /**
+     * Metoda czyszcząca wszystkie elemety w tablicy
+     */
     private void clean(){
         b2.setEnabled(true);
         b2.setText("");
@@ -143,144 +333,5 @@ public class MainActivity extends Activity {
         b9.setText("");
         b10.setEnabled(true);
         b10.setText("");
-    }
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.button:
-                if (text1.getText().length() == 0 && text.getText().length()==0) {
-                    Toast.makeText(this, "Please enter a valid number",
-                            Toast.LENGTH_LONG).show();
-                    return;
-                }
-                player[0] = ""+text.getText();
-                player[1] = ""+text1.getText();
-                winnings[0]=0;
-                winnings[1]=0;
-                round = generator.nextInt(2);
-                msg.setText("Teraz kolej gracza: " + player[round]);
-                ranking.setText(player[0]+" "+winnings[0]+":"+winnings[1]+" "+player[1]);
-                board.setVisibility(View.VISIBLE);
-                clean();
-                break;
-
-            case R.id.button2:
-                if(round==0){
-                    b2.setText("X");
-                    round++;
-                }
-                else{
-                    b2.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b2.setTextSize(b3.getHeight() / 4);
-                b2.setEnabled(false);
-                break;
-            case R.id.button3:
-                if(round==0){
-                    b3.setText("X");
-                    round++;
-                }
-                else{
-                    b3.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b3.setTextSize(b3.getHeight()/4);
-                b3.setEnabled(false);
-                break;
-            case R.id.button4:
-                if(round==0){
-                    b4.setText("X");
-                    round++;
-                }
-                else{
-                    b4.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b4.setTextSize(b3.getHeight() / 4);
-                b4.setEnabled(false);
-                break;
-            case R.id.button5:
-                if(round==0){
-                    b5.setText("X");
-                    round++;
-                }
-                else{
-                    b5.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b5.setTextSize(b3.getHeight() / 4);
-                b5.setEnabled(false);
-                break;
-            case R.id.button6:
-                if(round==0){
-                    b6.setText("X");
-                    round++;
-                }
-                else{
-                    b6.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b6.setTextSize(b3.getHeight() / 4);
-                b6.setEnabled(false);
-                break;
-            case R.id.button7:
-                if(round==0){
-                    b7.setText("X");
-                    round++;
-                }
-                else{
-                    b7.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b7.setTextSize(b3.getHeight() / 4);
-                b7.setEnabled(false);
-                break;
-            case R.id.button8:
-                if(round==0){
-                    b8.setText("X");
-                    round++;
-                }
-                else{
-                    b8.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b8.setTextSize(b3.getHeight() / 4);
-                b8.setEnabled(false);
-                break;
-            case R.id.button9:
-                if(round==0){
-                    b9.setText("X");
-                    round++;
-                }
-                else{
-                    b9.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b9.setTextSize(b3.getHeight() / 4);
-                b9.setEnabled(false);
-                break;
-            case R.id.button10:
-                if(round==0){
-                    b10.setText("X");
-                    round++;
-                }
-                else{
-                    b10.setText("O");
-                    round--;
-                }
-                msg.setText("Teraz kolej gracza: "+player[round]);
-                b10.setTextSize(b3.getHeight()/4);
-                b10.setEnabled(false);
-                break;
-        }
-        Resoults();
     }
 }
