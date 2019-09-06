@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="laptopy">Laptopy</string>
+    <string name="telefony">Telefony</string>
+    <string name="tablety">Tablety</string>
+    <string name="akcesorie">Akcesorie</string>
+    <string name="najnowsze">Najnowsze</string>
+    <string name="promocje">Promocje</string>
+    <string name="koszyk">Koszyk</string>
+    <string name="wiadomo">Wiadomość</string>
+    <string name="szukaj">Szukaj</string>
+    <string name="ulubione">Ulubione</string>
+    <string name="send">Wyślij maila</string>
+    <string name="back">Anuluj</string>
+    <string name="powr_t">Powrót</string>
+    <string name="strona_g_wna">Strona Główna</string>
+    <string name="dodaj_do_koszyka">Dodaj do koszyka</string>
+    <string name="fav_string">Nie masz nic w ulubionych kliknij na poniższy obrazek w ulubionym przedmiocie</string>
+    <string name="wy_lij_maila">Wyślij maila</string>
+    <string name="adres">Adres:</string>
+    <string name="wpisz_swojego_maila">Wpisz swojego maila</string>
+    <string name="temat">Temat:</string>
+    <string name="wpisz_temat">Wpisz Temat</string>
+    <string name="wiadomo_mail">Wiadomość:</string>
+    <string name="twoja_wiadomo">Twoja wiadomość</string>
+    <string name="historia_zakup_w">Historia zakupów</string>
+    <string name="kup">Kup</string>
+    <string name="suma">Suma:</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="kategorie">Kategorie: </string>
+    <string-array name="caltegory">
+        <item>Laptopy</item>
+        <item>Telefony</item>
+        <item>Tablety</item>
+        <item>Akcesorie</item>
+    </string-array>
+</resources>

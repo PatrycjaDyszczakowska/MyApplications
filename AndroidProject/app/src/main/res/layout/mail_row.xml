@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_border_row"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/mail_row_adres"
+        android:text="add"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail_row_adres"
+        android:id="@+id/mail_row_temat"
+        android:textSize="18sp"
+        android:text="ssdasdsasdsasdasasdas"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail_row_temat"
+        android:id="@+id/mail_row_wiadomosc"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+</RelativeLayout>

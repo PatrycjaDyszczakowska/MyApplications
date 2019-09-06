@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <com.darwindeveloper.horizontalscrollmenulibrary.custom_views.HorizontalScrollMenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu"
+        android:layout_below="@id/toolbar"
+        app:backgroundMenuColor="@color/colorBack"
+        app:icon_height="50dp"
+        app:icon_width="50dp"
+        app:item_backgroundColor="@color/colorToolBarDark"
+        app:item_colorSelected="@color/colorToolBar"
+        app:backgroundNotifications="@color/colorToolBar"
+        app:item_marginBottom="4dp"
+        app:item_marginLeft="4dp"
+        app:item_marginRight="4dp"
+        app:item_marginTop="4dp"
+        app:item_textColor="@color/colorBack"
+        app:item_textSize="7sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/menu"
+        android:layout_above="@id/navigation"
+        android:id="@+id/fragment_layout"
+        android:background="@color/colorBack"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorToolBarDark"
+        app:itemBackground="@color/colorToolBarDark"
+        app:itemIconTint="@color/colorBack"
+        app:itemTextColor="@color/colorBack"
+        app:menu="@menu/navigation" />
+</RelativeLayout>
