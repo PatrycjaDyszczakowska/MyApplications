@@ -1,2 +1,0 @@
-INDEX VERSION 1.130+C:\Users\Patrycja\Desktop\Studia\Praca_Inzynierska_Server\Praca_Inzynierska_Server\.metadata\.plugins\org.eclipse.jdt.core
-2779629487.index
