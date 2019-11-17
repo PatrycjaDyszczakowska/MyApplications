@@ -1,0 +1,59 @@
+package com.praca_inzynierska_server.app;
+
+import java.util.*;
+
+public class Specializations {
+	private Integer id;
+	private String name;
+	private List<Degree> degs = new ArrayList<>();
+	
+	public Specializations(String name, String path) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public Specializations(Integer id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public Integer getId() {
+		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public List<Degree> getAllDeg() {
+		return degs;
+	}
+	
+	public Degree getDeg(Integer id) {
+		return degs.get(id);
+	}
+	
+	public Degree createDeg(Integer id, String name) {
+		Degree deg = new Degree(id, name.replace("+", " "));
+		degs.add(id,deg);
+		return deg;
+	}
+	
+	public Degree updateDeg(Integer idDeg, Integer idCourse, String name) {
+		Degree deg = degs.get(idDeg);
+		deg.createCourse(idCourse, name);
+		return deg;
+	}
+	
+	public Degree updateCourse(Integer idDeg, Integer idCourse, Integer idSemester, String name) {
+		Degree deg = degs.get(idDeg);
+		deg.updateCourse(idCourse, idSemester, name);
+		return deg;
+	}
+	
+	public Degree updateSemester(Integer idDeg, Integer idCourse, Integer idSemester, Integer idListOfRev, String name) {
+		Degree deg = degs.get(idDeg);
+		deg.updateSemester(idCourse, idSemester, idListOfRev, name);
+		return deg;
+	}
+}

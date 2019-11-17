@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Praca_Inzynierska</string>
+    <string name="sign_in">Zaloguj się</string>
+    <string name="register">Zarejestruj się</string>
+    <string name="log_out">Wyloguj</string>
+    <string name="back">Powrót</string>
+    <string name="quit">Wyjdz</string>
+    <string name="add">Dodaj</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="loginRegister">Login (twój numer indeksu studenckiego)</string>
+    <string name="passwordRegister" tools:ignore="TypographyDashes">Hasło (a-zA-Z0-9 oraz wszystkie znaki oprócz #, $, %, &amp;)</string>
+    <string name="repeadpassword">Powtórz hasło</string>
+    <string name="acc">Wprowadz klucz aktywacyjny, który został wysłany na twojego maila studenckiego</string>
+    <string name="acc_button">Potwierdz</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="dialog">Czy na pewno chcesz wyjść?</string>
+    <string name="logo">Logo uczelni</string>
+    <string name="rev">Opinia:</string>
+    <string name="name">Prowadzący:</string>
+    <string name="average">Średnia ocena: </string>
+    <string name="ok">OK</string>
+</resources>

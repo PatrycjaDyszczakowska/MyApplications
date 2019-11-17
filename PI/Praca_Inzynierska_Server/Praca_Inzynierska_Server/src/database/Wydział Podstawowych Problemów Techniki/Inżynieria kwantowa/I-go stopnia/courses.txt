@@ -1,0 +1,70 @@
+Wybrane dzia³y chemii
+Fizyka 1
+Podstawy grafiki in¿ynierskiej
+Wstêp do programowania
+Algebra 1
+Analiza matematyczna 1
+Mechanika klasyczna irelatywistyczna
+Fizyka 2
+Laboratorium fizyki ogólnej 1
+Techniki programowania
+Analiza matematyczna 2
+Wstêp do rachunku prawdopodobi
+Algebra 2
+Metody matematyczne fizyki
+Mechanika kwantowa 1
+Laboratorium fizyki ogólnej 2
+Podstawy elektrodynamiki
+Pakiety algebry komputerowej
+Efekty topologiczne w strukturach niskowymiarowych - metody numeryczne
+Elementy modelowania numerycznego w fizyce
+Symulacje Monte Carlo
+Metody obliczeniowe fizyki
+In¿ynierskie systemy informatyczne Comsol
+Komputerowe wspomaganie eksperymentu-LABVIEW
+Optoelektroniczna aparatura pomiarowa
+Przetwarzanie Informacji obrazowej
+Modelowanie 3D w AutoCAD-zie
+Termodynamika i fizyka statystyczna
+Mechanika kwantowa 2
+Podstawy fizyki cia³a sta³ego
+Bezpieczeñstwo komputerowe
+Kryptografia klasyczna
+Jêzyki i paradygmaty programow
+Algorytmy optymalizacji dyskre
+Wprowadzenie do algorytmiki
+Algorytmika - Wyk³ad monografi
+Ogniwa fotowoltaiczne 1
+Laboratorium fotoogniw
+Optyka nieliniowa
+Plazmonika nanostruktur metalicznych
+Symetrie i fizyka pó³przewodników
+Makroskopowe zjawiska kwantowe - nadprzewodnictwo, nadciek³oœæ, kondensaty atomów
+Wstêp do informatyki kwantowej
+Obliczenia z zasad pierwszych oparte na teorii funkcjona³u gêstoœci
+Podstawy optyki fizycznej
+Œwiat³owody
+Podstawy optyki fizycznej
+Fazy geometryczne w uk³adach kwantowych
+Wstêp do fizyki dielektryków
+Nanomagnetyzm i nadprzewodnictwo w nanoskali
+Teoria metali
+Teoria normalnej i nadciek³ej cieczy Fermiego
+Efekty topologiczne w strukturach niskowymiarowych - metody numeryczne
+Magnetyzm i spintronika
+Kwantowe uk³ady otwarte
+Eksperymentalne metody badania materia³ów pó³przewodnikowych
+Projektowanie struktur pó³przewodnikowych
+Przyrz¹dy i uk³ady pó³przewodnikowe
+Wstêp do optyki kwantowej
+Metody symulacji fotoogniw
+Fizyka kropek kwantowych
+Kwantowy efekt Halla
+Wstêp do teorii przejœæ fazowych
+Kryptografia kwantowa
+Wstêp do projektu NLTK 1
+Projekt NLTK 1
+Seminarium dyplomowe
+Kosmologia
+Kwantowa teoria uk³adów wielu cz¹stek
+Teoria wzglêdnoœci

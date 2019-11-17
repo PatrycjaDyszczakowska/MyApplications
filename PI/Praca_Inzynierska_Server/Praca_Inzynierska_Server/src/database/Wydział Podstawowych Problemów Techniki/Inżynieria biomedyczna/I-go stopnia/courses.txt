@@ -1,0 +1,82 @@
+Fizykochemia materia³ów
+Metrologia
+Wybrane problemy techniki medycznej
+Fizyka 1.3A
+Technologie informacyjne
+Algebra z geometri¹ analityczn¹
+Analiza matematyczna 1.1 A
+Anatomia
+Grafika in¿ynierska
+Fizyko-chemiczne metody pomiarowe
+Podstawy elektrotechniki i elektroniki 1
+Optyka in¿ynierska
+Fizyka 2.7
+Jêzyki programowania
+Analiza matematyczna 2.1 A
+Propedeutyka nauk medycznych
+Podstawy elektrotechniki i elektroniki 2
+Biologia z elementami mikrobiologii
+Biofizyka
+Informatyka
+Statystyka i rachunek prawdopodobieñstwa
+Fizjologia
+Mechanika i wytrzyma³oœæ
+Biochemia
+Mikrokontrolery 1
+Czujniki i pomiary wielkoœci nieelektrycznych
+Elektroniczna aparatura medyczna 1
+Podstawy biofotoniki
+Biomechanika in¿ynierska
+Projektowanie wspomagane komputerowo
+Automatyka i robotyka
+Podstawy zastosowañ ultradŸwiêków w medycynie
+Cyfrowe przetwarzanie sygna³ów
+Uk³ady elektroniczne 1
+Mikrokontrolery 2
+Elektroniczna aparatura medyczna 2
+Lasery i ich zastosowania w medycynie
+Grafika komputerowa
+Komputerowe wspomaganie dzia³añ in¿ynierskich
+Zastosowanie mikroprocesorów do konstrukcji inteligentnych przetworników biomedycznych
+Pomiary wielkoœci cieplnych
+Uk³ady elektroniczne 2
+Systemy pomiarowo-diagnostyczne
+Zasady konstrukcji aparatury elektronicznej 1
+Zasady redagowania opracowañ i prac naukowych
+Biomateria³y
+Techniki obrazowania medycznego
+Zasady konstrukcji aparatury elektronicznej 2
+Pomiary bioimpedancyjne
+Seminarium dyplomowe
+Implanty i sztuczne narz¹dy
+Prawne i etyczne aspekty w in¿ynierii biomedycznej
+Optyczne czujniki chemiczne i biosensory
+Konstrukcje i pomiary optyczne
+Metody numeryczne w optyce biomedycznej
+Interferometria i holografia
+Œwiat³owody
+Optyka falowa
+Œwiat³owody 2
+Optyczna diagnostyka medyczna
+Analiza danych spektroskopowych
+Biomedycyna laserowa
+Optyka instrumentalna
+Pomiary optyczne 1
+Metody numeryczne w biomechanice
+Bioprzep³ywy
+Biomechanika sportu
+Projektowanie konstrukcji mechanicznych 1
+Metody doœwiadczelne i numeryczne w biomechanice
+Systemy nawigacyjne w medycynie
+Technologia implantów
+In¿ynieria rehabilitacyjna
+Projektowanie konstrukcji mechanicznych 2
+Technika mikroprocesrowa
+Bazy danych
+Zaawansowane programowanie obiektowe 1
+Metody numeryczne
+In¿ynieria oprogramowania
+Technologie sieciowe
+Wstêp do bioinformatyki
+Modelowanie uk³adów biologicznych
+Zaawansowane programowanie obiektowe 2

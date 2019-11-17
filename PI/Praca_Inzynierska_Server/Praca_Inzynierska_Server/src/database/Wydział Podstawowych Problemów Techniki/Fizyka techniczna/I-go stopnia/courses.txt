@@ -1,0 +1,70 @@
+Podstawy chemii ogÛlnej
+Fizyka FT1
+Podstawy analizy danych-Origin
+WstÍp do programowania
+Algebra FT1
+Analiza matematyczna FT1
+Laboratorium fizyczne 1
+Fizyka FT2
+Algebra FT2
+Analiza matematyczna FT2
+Podstawy grafiki inøynierskiej
+Programowanie proceduralne
+WstÍp do rachunku prawdopodobi
+Laboratorium fizyczne 2
+Podstawy mechaniki analitycznej i elektrodynamiki
+Matematyczne metody fizyki
+Fizyka FT3
+Programowanie obiektowe
+Optyka geometryczna
+Pakiety obliczeniowe
+Obwody elektryczne 1
+Podstawy spektroskopii
+Optyka falowa
+Pomiary optyczne 1
+Podstawy fizyki kwantowej
+Fizyka cia≥a sta≥ego 1
+Cyfrowe przetwarzanie sygna≥Ûw
+Lasery
+Obwody elektryczne 2
+Interferometria i holografia
+Pomiary optyczne 2
+Fizyka cia≥a sta≥ego 2
+WstÍp do fizyki dielektrykÛw
+Przyrzπdy i uk≥ady pÛ≥przewodnikowe
+Podstawy fizyki pÛ≥przewodnikÛw
+åwiat≥owody
+Optyka oúrodkÛw anizotropowych
+Przyrzπdy i uk≥ady pÛ≥przewodnikowe 2
+Mikroelektroniczne uk≥ady analogowe i cyfrowe 1
+Fotometria i kolorymetria
+Konstrukcje mechaniczne w przy
+Fizyka cienkich warstw
+Seminarium dyplomowe
+èrÛd≥a i detektory
+Mikroelektroniczne uk≥ady analogowe i cyfrowe 2
+Chemia fizyczna
+Podstawy optyki fizycznej
+Krystalografia, rentgenografia
+Podstawy elektroniki
+WstÍp do fizyki nanostruktur
+Fizyka statystyczna i termodynamika
+Komputerowe wspomaganie eksperymentu-LABVIEW
+Technologie opto- i mikroelektroniczne
+åwiat≥owody i struktury fotoniczne
+Fizyka cia≥a sta≥ego - pÛ≥przewodniki
+Fizyka cia≥a sta≥ego - dynamika sieci
+Mechanika kwantowa
+Metody obliczeniowe fizyki
+Matlab - úrodowisko obliczeÒ inøynierskich
+Projektowanie materia≥Ûw i struktur
+Podstawy teorii struktur niskowymiarowych
+Optyka cia≥a sta≥ego
+Epitaksjalne struktury zerowymiarowe
+Nanostruktury koloidalne
+Podstawy spintroniki
+Charakteryzacja materia≥Ûw i struktur pÛ≥przewodnikowych
+Fizyka cia≥a sta≥ego - magnetooptyka
+Materia≥y i struktury 2D - wyk≥ad monograficzny
+Optoelektronika
+Fizyka cia≥a sta≥ego - magnetyki

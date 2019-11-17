@@ -1,0 +1,36 @@
+package com.praca_inzynierska_server.app;
+
+import java.util.*;
+
+public class Semester {
+	private Integer id;
+	private String name;
+	private List<List_of_reviews> List_reviews = new ArrayList<>();
+	
+	public Semester(Integer id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public Integer getId() {
+		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public List<List_of_reviews> getAllListOfRev() {
+		return List_reviews;
+	}
+	
+	public List_of_reviews getListOfRev(Integer id) {
+		return List_reviews.get(id);
+	}
+	
+	public List_of_reviews createListOfRev(Integer id, String name) {
+		List_of_reviews List_review = new List_of_reviews(id, name.replace("+", " "));
+		List_reviews.add(id,List_review);
+		return List_review;
+	}
+}

@@ -1,0 +1,67 @@
+Metody optymalizacji
+Analiza algorytmów
+Kryptografia
+Automatyczna weryfikacja
+Zaawansowane zagadnienia kombi
+Obliczenia energooszczêdne
+Algorytmy zrandomizowane
+Rachunek prawdopodobieñstwa
+Eksploracja danych
+Cyfrowe przetwarzanie sygna³ów
+Geometria obliczeniowa
+Wysoko wydajne obliczenia
+Interakcja cz³owiek-komputer
+Algebra numeryczna
+Techniki analityczne analizy a
+Systemy identyfikacyjne
+Programowanie deklaratywne
+Technologia wiêzów
+Optymalizacja dyskretna
+Metody programowania w logice
+Wyk³ad monograficzny
+Algorytmy rozproszone
+Algorytmy on-line
+Bazy danych
+Systemy Ad Hoc
+Algorytmy aproksymacyjne
+Algorytmiczna teoria gier
+Systemy P2P
+Wprowadzenie do systemów telek
+Fizyka
+Teoria obliczeñ i z³o¿onoœæ ob
+Metody probabilistyczne algory
+Zespo³owy projekt programistyc
+Seminarium dyplomowe
+System Security I
+Embedded Security Systems
+Compliance and Operational Sec
+Cryptography
+Introduction to Wireless Telec
+Applied Stochastics with Appli
+On-Line Algorithms
+P2P Networks
+Approximation algorithms
+Declarative Programming
+High Performance Computing
+Programming in Logic
+Ad Hoc Systems
+Distributed Algorithms
+Introduction to Electronics fo
+Group Programming Project
+Humane-Machine Interaction
+Identification Systems
+Data Mining
+Constraints technology
+VLSI Systems
+Randomized Algorithms
+Databases
+Monographic Lecture
+Numerical Algebra
+Security in Cloud Computing
+Green Computing
+Physics for Security Engineers
+Digital Signal Processing
+Physics
+Cryptography and Security
+System Security II
+MSc Seminar

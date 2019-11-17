@@ -1,0 +1,60 @@
+W³asnoœæ intelektualna i prawa autorskie
+Etyka in¿ynierska
+Filozofia
+Podstawy zarz¹dzania jakoœci¹
+Technologie informacyjne
+Algebra liniowa z geometri¹ analityczn¹ A
+Analiza matematyczna 1.2
+Analiza matematyczna 2.3A
+Matematyka dyskretna 2
+Algebra liniowa 2
+Rachunek prawdopodobieñstwa
+Fizyka 1.1A 
+Fizyka 3.1
+Podstawy programowania
+Grafika in¿ynierska
+Systemy operacyjne
+Miernictwo
+Jêzyki programowania
+Programowanie obiektowe
+Logika uk³adów cyfrowych
+Zastosowanie œrodowiska Matlab w obliczeniach in¿ynierskich
+Elektronika i energoelektronika
+Podstawy automatyki i robotyki
+Podstawy elektrotechniki
+Podstawy przetwarzania sygna³ów
+Struktury danych i z³o¿onoœæ obliczeniowa
+Bazy danych 1
+Technologie sieciowe 1
+Podstawy techniki mikroprocesorowej
+Analogowe i cyfrowe systemy pomiarowe
+Projektowanie efektywnych algorytmów
+In¿ynieria oprogramowania
+Bazy danych 2
+Technologie sieciowe 2
+Urz¹dzenia peryferyjne
+Uk³ady cyfrowe i systemy wbudowane 1
+Uk³ady cyfrowe i systemy wbudowane 2
+Procesory sygna³owe
+Sterowniki i regulatory
+Informatyka i automatyka budynkowa
+Architektura komputerów
+Arytmetyka komputerów
+Sztuczna inteligencja
+Metody sztucznej inteligencji
+Komputerowe sieci przemys³owe
+Bezprzewodowe sieci komputerowe
+Komputerowo wspomagane projektowanie systemów sterowania
+Zarz¹dzanie w systemach i sieciach komputerowych
+Administrowanie sieciowymi systemami operacyjnymi
+Interfejsy obiektowe
+Sieciowe systemy operacyjne
+Automatyzacja ciag³ych procesów produkcyjnych 
+Sterowniki mikroprocesorowe w aplikacjach sieciowych 
+Projektowanie oprogramowania
+Projekt zespo³owy
+Seminarium dyplomowe
+Programowanie w jêzyku JAVA 
+In¿ynieria e-systemów - technologia JAVA
+Internetowe bazy danych
+Transmisja danych

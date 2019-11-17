@@ -1,0 +1,52 @@
+package com.praca_inzynierska_server.app;
+
+import java.util.*;
+
+public class Degree {
+	private Integer id;
+	private String name;
+	private List<Course> courses = new ArrayList<>();
+	
+	public Specializations(String name, String path) {
+		this.name = name;
+	}
+	
+	public Degree(Integer id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public Integer getId() {
+		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public List<Course> getAllCourse() {
+		return courses;
+	}
+	
+	public Course getCourse(Integer id) {
+		return courses.get(id);
+	}
+	
+	public Course createCourse(Integer id, String name) {
+		Course course = new Course(id, name.replace("+", " "));
+		courses.add(id,course);
+		return course;
+	}
+	
+	public Course updateCourse(Integer idCourse, Integer idSemester, String name) {
+		Course course = courses.get(idCourse);
+		course.createSemester(idSemester, name);
+		return course;
+	}
+	
+	public Course updateSemester(Integer idCourse, Integer idSemester, Integer idListOfRev, String name) {
+		Course course = courses.get(idCourse);
+		course.updateSemester(idSemester, idListOfRev, name);
+		return course;
+	}
+}

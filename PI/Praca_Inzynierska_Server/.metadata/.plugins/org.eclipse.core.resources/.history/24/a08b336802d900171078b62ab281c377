@@ -1,0 +1,126 @@
+package com.praca_inzynierska_server.app;
+import static spark.Spark.*;
+
+import java.io.*;
+import java.util.Scanner;
+
+import static com.praca_inzynierska_server.app.JsonUtil.*;
+
+public class StartServer {
+	public StartServer(final ServerTree serverTree) {
+		
+		
+		get("/server/", (request, response) -> "Witam w serwerze Aplikacji mobilnej do przegl¹dania i oceny kursów");
+		
+		get("/server/departaments", (request, response) -> serverTree.getAllDep(), json());
+		
+		post("/server/departaments", (request, response) -> serverTree.createDep(
+			Integer.parseInt(request.queryParams("id")),
+			request.queryParams("name")
+			), json());
+		
+		get("/server/departaments/:specialization", (request, response) -> {
+			Integer id = Integer.parseInt(request.params(":specialization"));
+			Departaments dep = serverTree.getDep(id);
+			return dep.getAllSpec();
+		},json());
+		
+		put("/server/departaments/:specialization",(request, response) -> serverTree.updateDep(
+			Integer.parseInt(request.params(":specialization")),
+			Integer.parseInt(request.queryParams("id")),
+			request.queryParams("name")
+		),json());
+				
+		get("/server/departaments/:specialization/:degree", (request, response) -> {
+			Integer id = Integer.parseInt(request.params(":specialization"));
+			Integer idDeg = Integer.parseInt(request.params(":degree"));
+			Departaments dep = serverTree.getDep(id);
+			Specializations spec = dep.getSpec(idDeg);
+			return spec.getAllDeg();
+		},json());
+				
+		put("/server/departaments/:specialization/:degree",(request, response) -> serverTree.updateSpec(
+			Integer.parseInt(request.params(":specialization")),
+			Integer.parseInt(request.params(":degree")),
+			Integer.parseInt(request.queryParams("id")),
+			request.queryParams("name")
+		),json());
+				
+		get("/server/departaments/:specialization/:degree/:course", (request, response) -> {
+			Integer id = Integer.parseInt(request.params(":specialization"));
+			Integer idDeg = Integer.parseInt(request.params(":degree"));
+			Integer idCourse = Integer.parseInt(request.params(":course"));
+			Departaments dep = serverTree.getDep(id);
+			Specializations spec = dep.getSpec(idDeg);
+			Degree deg = spec.getDeg(idCourse);
+			return deg.getAllCourse();
+		},json());
+				
+		put("/server/departaments/:specialization/:degree/:course",(request, response) -> serverTree.updateDeg(
+			Integer.parseInt(request.params(":specialization")),
+			Integer.parseInt(request.params(":degree")),
+			Integer.parseInt(request.params(":course")),
+			Integer.parseInt(request.queryParams("id")),
+			request.queryParams("name")
+		),json());
+			
+		get("/server/departaments/:specialization/:degree/:course/:semester", (request, response) -> {
+			Integer id = Integer.parseInt(request.params(":specialization"));
+			Integer idDeg = Integer.parseInt(request.params(":degree"));
+			Integer idCourse = Integer.parseInt(request.params(":course"));
+			Integer idSem = Integer.parseInt(request.params(":semester"));
+			Departaments dep = serverTree.getDep(id);
+			Specializations spec = dep.getSpec(idDeg);
+			Degree deg = spec.getDeg(idCourse);
+			Course course = deg.getCourse(idSem);
+			return course.getAllSemester();
+		},json());
+				
+		put("/server/departaments/:specialization/:degree/:course/:semester",(request, response) -> serverTree.updateCourse(
+			Integer.parseInt(request.params(":specialization")),
+			Integer.parseInt(request.params(":degree")),
+			Integer.parseInt(request.params(":course")),
+			Integer.parseInt(request.params(":semester")),
+			Integer.parseInt(request.queryParams("id")),
+			request.queryParams("name")
+		),json());
+				
+		get("/server/departaments/:specialization/:degree/:course/:semester/:listofreviews", (request, response) -> {
+			Integer id = Integer.parseInt(request.params(":specialization"));
+			Integer idDeg = Integer.parseInt(request.params(":degree"));
+			Integer idCourse = Integer.parseInt(request.params(":course"));
+			Integer idSem = Integer.parseInt(request.params(":semester"));
+			Integer idRev = Integer.parseInt(request.params(":listofreviews"));
+			Departaments dep = serverTree.getDep(id);
+			Specializations spec = dep.getSpec(idDeg);
+			Degree deg = spec.getDeg(idCourse);
+			Course course = deg.getCourse(idSem);
+			Semester sem = course.getSemester(idRev);
+			return sem.getAllListOfRev();
+		},json());
+				
+		put("/server/departaments/:specialization/:degree/:course/:semester/:listofreviews",(request, response) -> serverTree.updateSemester(
+			Integer.parseInt(request.params(":specialization")),
+			Integer.parseInt(request.params(":degree")),
+			Integer.parseInt(request.params(":course")),
+			Integer.parseInt(request.params(":semester")),
+			Integer.parseInt(request.params(":listofreviews")),
+			Integer.parseInt(request.queryParams("id")),
+			request.queryParams("name")
+		),json());
+					
+		
+		path("/users", () -> {
+			get("", (request, response) -> "USER: Hello World 1");
+		});
+		
+		after((req, res) -> {
+			res.type("application/json");
+		});
+
+		exception(IllegalArgumentException.class, (e, req, res) -> {
+			res.status(400);
+		});
+	}
+
+}
